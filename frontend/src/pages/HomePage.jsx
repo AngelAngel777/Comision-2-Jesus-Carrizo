@@ -1,9 +1,9 @@
-import { Post } from "../components/01-componentes/Post"
+
 
 export const HomePage = () => {
   return (
 <div>
-  <Post />
+Aca se verian las publicaciones
 </div>
   );
 };

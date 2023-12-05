@@ -10,6 +10,7 @@ export const Navbar = () => {
     "https://images8.alphacoders.com/872/872780.jpg",
     "https://images3.alphacoders.com/133/1331063.png",
     "https://images2.alphacoders.com/712/71210.jpg",
+    "https://images2.alphacoders.com/712/71210.jpg",
   ];
 
   return (
@@ -17,8 +18,8 @@ export const Navbar = () => {
 
         <Carousel images={images} />
       <div className="container-fluid nav">
-        <a className="navbar-brand nav-borde1" href="#">
-          Viaja
+        <a className="navbar-brand nav-borde1" href="/Publicar">
+          Publica
         </a>
         <button
           className="navbar-toggler"
@@ -44,11 +45,6 @@ export const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active nav-borde" to="/perfil">
-                Perfil
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link className="nav-link active nav-borde" to="/login">
                 Iniciar sesion
               </Link>
@@ -56,6 +52,11 @@ export const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link active nav-borde" to="/register">
                 Registrarse
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link active nav-borde" to="/perfil">
+                Perfil
               </Link>
             </li>
             {/* <li className="nav-item">

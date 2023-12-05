@@ -50,25 +50,9 @@
 color: #000000;
 }
 
-.login{
-  position: relative;
-  left: 34%;
-  top: 100px;
-}
-.register{
-  position: relative;
-  left: 34%;
-  top: 100px;
-}
 
-.btn-1{
-  position: relative;
-  left: 83%;
-}
-.btn-2{
-  position: relative;
-  left: 83%;
-}
+
+
 
 .nav{
 position: relative;
@@ -155,19 +139,88 @@ object-fit: cover;
   transition: background-color 0.3s ease; /* Añade una transición suave al cambio de color */
 }
 
+/* LOGIN Y REGISTER  */
+.login{
+  position: relative;
+  left: 34%;
+  top: 7vh;
+}
+.register{
+  position: relative;
+  left: 34%;
+  top: 7vh;
+}
+
 .tit-login{
 position: relative;
-top: 100px;
+top: 7vh;
 left: 550px;
 }
 
 .tit-register{
 position: relative;
-top: 100px;
+top: 7vh;
 left: 550px;
 }
+
+.btn-1{
+  position: relative;
+  left: 84%;
+}
+.btn-2{
+  position: relative;
+  left: 81%;
+}
+
+/* FIN LOGIN Y REGISTER  */
 
 .h2-news{
   position: relative;
   left: 1%;
 }
+
+/* IMAGENES INTERACTICAS  */
+.barra {
+  background-color: rgb(13, 21, 133);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.galeria{
+  display: flex;
+  width: 100%;
+  height: 37vh;
+  background-color: rgb(13, 21, 133);
+  transition: height 0.9s ease; 
+  padding-bottom: 1%;
+  }
+
+.galeria.desplegado {
+  height: 0px;
+}
+
+.galeria img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  filter: brightness(80%);
+  transition: .7s ease;
+  margin: 5px;
+  border-radius: 50px;
+}
+
+.galeria img:hover{
+  width: 500px;
+  opacity: 1;
+  filter: brightness(130%);
+}
+/* FIN IMAGENES INTERACTIVAS  */
+
+/* PAGINA PERFIL  */
+.imgPerfil{
+  width: 10%;
+}
+/* FIN PAGINA PERFIL  */

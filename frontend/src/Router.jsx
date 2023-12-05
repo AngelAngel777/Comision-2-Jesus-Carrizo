@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 
+import { Publicar } from "./pages/Publicar";
 import { HomePage } from "./pages/HomePage";
 import { News } from "./pages/news";
 import { ProfilePage } from "./pages/ProfilePage";
@@ -12,6 +13,7 @@ export function Router () {
 
   return (
     <Routes>
+      <Route path="/publicar" element={<Publicar />} />
       <Route path="/" element={<HomePage />} />
       <Route path="/news" element={<News />} />
       <Route path="/tareas" element={<TasksPage />} />
