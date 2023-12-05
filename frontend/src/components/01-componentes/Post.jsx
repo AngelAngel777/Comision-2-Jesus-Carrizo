@@ -65,8 +65,14 @@ export const Post = () => {
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-       <input type="file" />
-        <input type="text" />
+      <div class="input-group mb-3">
+  <label class="input-group-text" for="inputGroupFile01">Cargar Imagen</label>
+  <input type="file" class="form-control" id="inputGroupFile01"/>
+</div>
+       <div class="input-group mb-3">
+  <span class="input-group-text" id="inputGroup-sizing-default">Descripcion</span>
+  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"/>
+</div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
