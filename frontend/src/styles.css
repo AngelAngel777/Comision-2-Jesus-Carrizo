@@ -224,3 +224,15 @@ left: 550px;
   width: 10%;
 }
 /* FIN PAGINA PERFIL  */
+
+/* PAGINA PUBLICAR  */
+.divPublicar{
+  display: flex;
+}
+
+.btn-publicar{
+width: 100%;
+border-radius: unset;
+height: 7vh;
+}
+/* FIN PAGINA PUBLICAR */
