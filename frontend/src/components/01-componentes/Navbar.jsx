@@ -2,15 +2,25 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Carousel from "./Carousel";
 
+import img1 from '../../assets/img-slider/img1.jpg';
+import img2 from '../../assets/img-slider/img2.jpg';
+import img3 from '../../assets/img-slider/img3.jpg';
+import img4 from '../../assets/img-slider/img4.jpg';
+import img5 from '../../assets/img-slider/img5.jpg';
+import img6 from '../../assets/img-slider/img6.jpg';
+import img7 from '../../assets/img-slider/img7.jpg';
+import img8 from '../../assets/img-slider/img8.jpg';
+
 export const Navbar = () => {
   const images = [
-    "https://images5.alphacoders.com/133/1331058.png",
-    "https://images4.alphacoders.com/132/1323340.jpeg",
-    "https://images7.alphacoders.com/121/1212908.jpg",
-    "https://images8.alphacoders.com/872/872780.jpg",
-    "https://images3.alphacoders.com/133/1331063.png",
-    "https://images2.alphacoders.com/712/71210.jpg",
-    "https://images2.alphacoders.com/712/71210.jpg",
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
   ];
 
   return (

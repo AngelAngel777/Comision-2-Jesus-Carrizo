@@ -1,4 +1,20 @@
 import React, { useState, useEffect } from "react";
+import img1 from '../../assets/img1.jpg';
+import img2 from '../../assets/img2.jpg';
+import img3 from '../../assets/img3.jpg';
+import img4 from '../../assets/img4.jpg';
+import img5 from '../../assets/img5.jpg';
+import img6 from '../../assets/img6.jpg';
+import img7 from '../../assets/img7.jpg';
+import img8 from '../../assets/img8.jpg';
+import img9 from '../../assets/img9.jpg';
+import img10 from '../../assets/img10.jpg';
+import img11 from '../../assets/img11.jpg';
+import img12 from '../../assets/img12.jpg';
+import img13 from '../../assets/img13.jpg';
+import img14 from '../../assets/img14.jpg';
+import img15 from '../../assets/img15.jpg';
+
 
 export const Post = () => {
   const [desplegado, setDesplegado] = useState(true);
@@ -33,24 +49,22 @@ export const Post = () => {
         <h1>Inspiración?</h1>
       </div>
       <div className={`galeria ${desplegado ? "desplegado" : ""}`}>
-        <img src="https://picfiles.alphacoders.com/320/320687.jpg" alt="" />
-        <img src="https://picfiles.alphacoders.com/236/236802.jpg" alt="" />
-        <img src="https://images3.alphacoders.com/103/103147.jpg" alt="" />
-        <img
-          src="https://picfiles.alphacoders.com/250/thumb-250075.jpg"
-          alt=""
-        />
-        <img src="https://picfiles.alphacoders.com/250/250076.jpg" alt="" />
-        <img src="https://images3.alphacoders.com/133/1332803.png" alt="" />
-        <img src="https://images4.alphacoders.com/134/1341419.png" alt="" />
-        <img src="https://images6.alphacoders.com/133/1330094.png" alt="" />
-        <img src="https://images3.alphacoders.com/133/1338664.png" alt="" />
-        <img src="https://images3.alphacoders.com/133/1331818.png" alt="" />
-        <img src="https://images.alphacoders.com/133/1335323.png" alt="" />
-        <img src="https://images7.alphacoders.com/133/1339869.jpeg" alt="" />
-        <img src="https://images2.alphacoders.com/130/1308322.jpeg" alt="" />
-        <img src="https://images5.alphacoders.com/133/1333098.png" alt="" />
-        <img src="https://images2.alphacoders.com/133/1332016.png" alt="" />
+        <img src={img1} alt="" />
+        <img src={img2} alt="" />
+        <img src={img3} alt="" />
+        <img src={img4} alt="" />
+        <img src={img5} alt="" />
+        <img src={img6} alt="" />
+        <img src={img7} alt="" />
+        <img src={img8} alt="" />
+        <img src={img9} alt="" />
+        <img src={img10} alt="" />
+        <img src={img11} alt="" />
+        <img src={img12} alt="" />
+        <img src={img13} alt="" />
+        <img src={img14} alt="" />
+        <img src={img15} alt="" />
+
       </div>
       <div className="divPublicar">
         <button className="btn btn-primary btn-publicar" data-bs-toggle="modal" data-bs-target="#modalPublicar"><h2>Publicar <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M17.5 18.5v2q0 .2.15.35T18 21q.2 0 .35-.15t.15-.35v-2h2q.2 0 .35-.15T21 18q0-.2-.15-.35t-.35-.15h-2v-2q0-.2-.15-.35T18 15q-.2 0-.35.15t-.15.35v2h-2q-.2 0-.35.15T15 18q0 .2.15.35t.35.15h2ZM18 23q-2.075 0-3.538-1.463T13 18q0-2.075 1.463-3.538T18 13q2.075 0 3.538 1.463T23 18q0 2.075-1.463 3.538T18 23ZM8 9h8q.425 0 .713-.288T17 8q0-.425-.288-.713T16 7H8q-.425 0-.713.288T7 8q0 .425.288.713T8 9Zm3.675 12H5q-.825 0-1.413-.588T3 19V5q0-.825.588-1.413T5 3h14q.825 0 1.413.588T21 5v6.7q-.725-.35-1.463-.525T18 11q-.275 0-.513.012t-.487.063q-.225-.05-.5-.062T16 11H8q-.425 0-.713.288T7 12q0 .425.288.713T8 13h5.125q-.45.425-.813.925T11.675 15H8q-.425 0-.713.288T7 16q0 .425.288.713T8 17h3.075q-.05.25-.063.488T11 18q0 .825.15 1.538T11.675 21Z"/></svg></h2></button>
