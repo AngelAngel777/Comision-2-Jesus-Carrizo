@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useForm } from "../../hooks/useForm";
 
 export const Register = () => {
@@ -13,9 +14,10 @@ export const Register = () => {
     console.log(form);
   };
 
+  
   return (
     <div>
-            <h1 className="tit-register" >REGISTRARSE</h1>
+      <h1 className="tit-register">REGISTRARSE</h1>
       <form
         onSubmit={handleSubmit}
         className="form-control register"
@@ -37,7 +39,7 @@ export const Register = () => {
             onChange={handleChange}
           />
           <label htmlFor="exampleFormControlInput1" className="form-label">
-            Email 
+            Email
           </label>
           <input
             type="email"
@@ -64,7 +66,22 @@ export const Register = () => {
           />
         </div>
         <button className="btn btn-primary btn-sm btn-2" type="submit">
-          Registrar<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-tilt" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14.5 6.5l3 -2.9a2.05 2.05 0 0 1 2.9 2.9l-2.9 3l2.5 7.5l-2.5 2.55l-3.5 -6.55l-3 3v3l-2 2l-1.5 -4.5l-4.5 -1.5l2 -2h3l3 -3l-6.5 -3.5l2.5 -2.5l7.5 2.5z" /></svg>
+          Registrar
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-plane-tilt"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M14.5 6.5l3 -2.9a2.05 2.05 0 0 1 2.9 2.9l-2.9 3l2.5 7.5l-2.5 2.55l-3.5 -6.55l-3 3v3l-2 2l-1.5 -4.5l-4.5 -1.5l2 -2h3l3 -3l-6.5 -3.5l2.5 -2.5l7.5 2.5z" />
+          </svg>
         </button>
       </form>
     </div>
