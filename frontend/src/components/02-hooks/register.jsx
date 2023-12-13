@@ -32,7 +32,7 @@ export const Register = () => {
           <input
             type="text"
             name="username"
-            className="form-control"
+            className="form-control inputColor"
             id="exampleFormControlInput1"
             placeholder="Usuario"
             value={form.username}
@@ -44,7 +44,7 @@ export const Register = () => {
           <input
             type="email"
             name="email"
-            className="form-control"
+            className="form-control inputColor"
             id="exampleFormControlInput1"
             placeholder="nombre@ejemplo.com"
             value={form.email}
@@ -58,7 +58,7 @@ export const Register = () => {
           <input
             type="password"
             name="password"
-            className="form-control"
+            className="form-control inputColor"
             id="exampleFormControlInput2"
             placeholder="***********"
             value={form.password}

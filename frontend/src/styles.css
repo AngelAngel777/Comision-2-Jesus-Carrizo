@@ -144,11 +144,15 @@ object-fit: cover;
   position: relative;
   left: 34%;
   top: 7vh;
+  background-color: rgb(13, 21, 133);
+  color: #fff;
 }
 .register{
   position: relative;
   left: 34%;
   top: 7vh;
+  background-color: rgb(13, 21, 133);
+  color: #fff;
 }
 
 .tit-login{
@@ -170,6 +174,10 @@ left: 550px;
 .btn-2{
   position: relative;
   left: 81%;
+}
+
+.inputColor{
+  background-color: rgb(185, 185, 185);
 }
 
 /* FIN LOGIN Y REGISTER  */

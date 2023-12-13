@@ -27,7 +27,7 @@ export const Login = () => {
           </label>
           <input
             type="email"
-            className="form-control"
+            className="form-control inputColor"
             id="exampleFormControlInput1"
             placeholder="nombre@ejemplo.com"
             value={email}
@@ -42,7 +42,7 @@ export const Login = () => {
           </label>
           <input
             type="password"
-            className="form-control"
+            className="form-control inputColor"
             id="exampleFormControlInput2"
             placeholder="***********"
             value={password}
