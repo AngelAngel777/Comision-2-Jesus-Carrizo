@@ -1,10 +1,11 @@
 import mongoose from 'mongoose';
 
-mongoose.Schema({
+const userSchema = new mongoose.Schema({
     username:{
         type: String,
         required: true,
-        trim: true
+        trim: true,
+        unique: true,
     },
     email:{
         type: String,
@@ -16,10 +17,10 @@ mongoose.Schema({
         type: String,
         required: true,
     },
-    imgperfil:{
-        type: String,
-        required: true, 
-    }
+},
+    {
+        timestamps: true
+    
 })
 
-export default mongoose.model('User', userSchema);
+export default mongoose.model('User', userSchema)
